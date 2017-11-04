@@ -8,7 +8,7 @@ import android.widget.TextView;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    static TextView text1;
+     TextView text1;
     String msg;
 
     public static TextView getText1() {
@@ -24,6 +24,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //efdcevegredgvrevrevrvreved
+        String jsv;
         setContentView(R.layout.activity_main);
 showMsg(msg);
 
